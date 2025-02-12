@@ -1,0 +1,44 @@
+body {
+    scroll-behavior: smooth;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #816767;
+    color: #333;
+}
+
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    height: 60vh;
+    background: url('https://source.unsplash.com/1600x900/?glasses,fashion') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.glasses-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.glasses-box:hover {
+    transform: scale(1.05);
+}
+
+.material-box {
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.material-box:hover {
+    background: #0056b3;
+}
